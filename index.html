@@ -1,42 +1,61 @@
-<html>
-  <body>
-    <main>
-      <h1>CatPhotoApp</h1>
-      <section>
-        <h2>Cat Photos</h2>
-        <!-- TODO: Add link to cat photos -->
-        <p>Click here to view more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a>.</p>
-        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
-      </section>
-      <section>
-        <h2>Cat Lists</h2>
-        <h3>Things cats love:</h3>
-        <ul>
-          <li>cat nip</li>
-          <li>laser pointers</li>
-          <li>lasagna</li>
-        </ul>
-        <figure>
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
-          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
-        </figure>
-        <h3>Top 3 things cats hate:</h3>
-        <ol>
-          <li>flea treatment</li>
-          <li>thunder</li>
-          <li>other cats</li>
-        </ol>
-        <figure>
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
-          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
-        </figure>
-      </section>
-      <section>
-        <h2>Cat Form</h2>
-        <form action="https://freecatphotoapp.com/submit-cat-photo">
-          <input type="text" name="catphotourl" placeholder="cat photo URL">
-        </form>
-      </section>
-    </main>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El chanchito</title>
+</head>
+<body>
+  <!-- Lista desordenada -->
+  <ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+  </ul>
+
+  <!-- Lista ordenada -->
+  <ol>
+    <li value="10">Elemento 1</li>
+    <li value="11">Elemento 2</li>
+    <li value="12">Elemento 3</li>
+    <li>
+      <ol>
+        <li style="list-style-type: lower-alpha;">Sub1</li>
+        <li style="list-style-type: lower-alpha;">Sub2</li>
+        <li style="list-style-type: lower-alpha;">Sub3</li>
+      </ol>
+    </li>
+  </ol>
+
+
+
+
+  <form action="/formulario" method="POST">
+    <label for="nombre">Nombre</label>
+    <input value="Edmon" type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+    <br>
+    <label for="apellido">Apellido</label>
+    <input value="Ramires" type="text" id="apellido" name="apellido" placeholder="apellido"/>
+    <br>
+    <label for="comentario">Comentario</label>
+    <br>
+    <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese un comentario" name="comentario">Este es un valor por defecto</textarea>
+    <br>
+    
+    <button type="button">Enviar</button>
+  </form>
+  <h1>El chanchito feliz esta feliz</h1>
+  <h2>El chanchito triste esta triste</h2>
+  <h3>Mabiel le jiede el culo</h3>
+  <h4>A Marvin tambien</h4>
+
+  <p>Todos los <span style="color: rgb(76, 0, 255);">estudiantes</span> <br> 
+    del instituto estan aqui estudia</p>
+    <a target="_blank" href="https://www.google.com">Ir a google</a> <br><br>
+
+
+    <img src="1.png" width="500" height="500" />
+</body>
 </html>
